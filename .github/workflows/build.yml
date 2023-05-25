@@ -1,5 +1,4 @@
 name: Build
-
 on:
   push:
     branches:
@@ -7,7 +6,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_call:
-    
+
 jobs:
   sonarcloud:
     name: SonarCloud
